@@ -11,6 +11,12 @@
 /log/*
 !/log/.keep
 /tmp
+
+# Ignore mac custom attributes file
 .DS_Store
+
+# Ignore uploaded paperclip images
 /public/system/*
+
+# Ignore personal database setup
 /config/database.yml
